@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'payment/index'
   get 'categories/index'
   get 'splash/index'
   devise_for :users
