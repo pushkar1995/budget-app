@@ -33,7 +33,7 @@ nav a {
   color: white;
   font-weight: 700;
 }
-  
+
 .container {
   display: flex;
   flex-direction: column;
@@ -41,14 +41,14 @@ nav a {
   height: 100vh;
   gap: 5%;
 }
-  
+
 .back {
-  position:absolute;
+  position: absolute;
   top: 0;
-  left:0;
+  left: 0;
   padding: 0.5em;
 }
-  
+
 .back a {
   color: white;
   font-weight: 700;
@@ -60,7 +60,7 @@ img {
   height: 5em;
   border-radius: 5px;
 }
-  
+
 .list {
   display: flex;
   align-items: center;
@@ -72,7 +72,7 @@ img {
   padding: 0.5em;
   width: 100%;
 }
-  
+
 .add-new {
   border: 1px solid;
   width: 100%;
@@ -84,7 +84,7 @@ img {
   right: 0;
   left: 0;
 }
-  
+
 .field {
   width: 100%;
   margin-bottom: 1em;
