@@ -3,7 +3,9 @@
 one:
   name: MyString
   icon: MyString
+  author: one
 
 two:
   name: MyString
   icon: MyString
+  author: two

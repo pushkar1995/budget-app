@@ -3,7 +3,9 @@
 one:
   name: MyString
   amount: 1
+  author: one
 
 two:
   name: MyString
   amount: 1
+  author: two
