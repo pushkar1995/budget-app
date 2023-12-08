@@ -56,7 +56,7 @@ This project is built using the following technologies:
 ## 🚀 Live Demo & Video presentation<a name="live-demo"></a> <a name='video'></a>
 <br>
 
-- [Check the live demo, mobile version]()
+- [Check the live demo, mobile version](https://budget-app-ee56.onrender.com/)
 - [Check quick demonstration of the app video by clicking the link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
