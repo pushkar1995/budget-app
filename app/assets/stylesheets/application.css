@@ -147,18 +147,37 @@ input {
   gap: 2em;
 }
 
+.splash-heading {
+  color: #505860;
+  margin-bottom: 100px;
+}
+
 .sign-in,
 .sign-up {
+  display: flex;
+  justify-content: center;
   padding: 0.5em;
-  border-radius: 10px;
+  border-radius: 2px;
+  width: 350px;
+  margin: -10px;
+  color: #fff;
 }
 
 .sign-in {
   background: #3778c2;
+  color: #fff;
+}
+
+.sign-in a {
+  color: #fff;
 }
 
 .sign-up {
-  background: #5fb523;
+  background: white;
+}
+
+.sign-up a {
+  color: grey;
 }
 
 .notice,
