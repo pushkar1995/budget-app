@@ -195,3 +195,24 @@ input {
   color: #8f98aa;
   font-weight: 600;
 }
+
+.signin-button,
+.signup-button {
+  color: #eeeff1;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  padding: 1.5em 3.5em;
+  align-items: center;
+}
+
+.signin-backarrow-container,
+.signup-backarrow-container {
+  margin-top: 5px;
+  margin-left: 40px;
+  font-size: 10px;
+}
+
+.signup-backarrow-container a {
+  border: none;
+}

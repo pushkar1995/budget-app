@@ -1,8 +1,18 @@
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
 <div class="container">
-  <h2 class="list blue">Log in</h2>
+
+  <div class="list blue">
+    <div class="signin-backarrow-container">
+      <%= link_to do %>
+      <%=link_to image_tag("backarrow.png", alt:"back"), class: "backarrow-icon"  %>
+      <% end %>
+    </div>  
+    <h2 class="list blue">LOGIN</h2>
+    <%= f.submit "Log In", class: "signin-button" %>
+  </div>
+  
 
   <div class="sub-container">
-    <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
       <%= f.label :email %><br />
       <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "field", required: true %>
     
@@ -14,9 +24,6 @@
         <%= f.label :remember_me %>
       <% end %>
 
-      <div class="add-item">
-        <%= f.submit "Log in", class: "add" %>
-      </div>
-    <% end %>
   </div>
 </div>
+<% end %>
