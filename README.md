@@ -57,7 +57,7 @@ This project is built using the following technologies:
 <br>
 
 - [Check the live demo, mobile version](https://budget-app-ee56.onrender.com/)
-- [Check quick demonstration of the app video by clicking the link](https://www.loom.com/share/857a8ae3f7164af298df568067e019ef)
+- [Check quick demonstration of the app video by clicking the link](https://www.loom.com/share/35ae23b3d32446c8b9cb8462578709ce)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
